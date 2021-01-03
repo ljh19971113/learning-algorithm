@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public abstract class Examle {
 
-    public abstract void sort(Comparable[] a) ;
+    public abstract void doSort(Comparable[] a) ;
 
     public boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
