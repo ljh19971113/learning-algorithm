@@ -21,7 +21,7 @@ public abstract class Examle {
             if (i%100 == 0 && i != 0) {
                 StdOut.println();
             }
-            StdOut.print(a[i]);
+            StdOut.print(a[i] + " ");
         }
     }
 
