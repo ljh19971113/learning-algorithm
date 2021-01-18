@@ -9,10 +9,9 @@ import java.awt.*;
 
 public abstract class DrawExample {
 
-    private static Integer padding_horizontal = 15;
-    private static Integer padding_vertical = 30;
     private static Integer MAX_VALUE = 0;
     private static Integer MIN_VALUE = 0;
+
     static {
         Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
         StdDraw.setCanvasSize(screen.width,screen.height);

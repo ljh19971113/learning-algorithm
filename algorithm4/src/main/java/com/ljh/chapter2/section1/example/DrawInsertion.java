@@ -6,6 +6,8 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class DrawInsertion extends DrawExample {
 
+    private static DrawInsertion drawInsertion = new DrawInsertion();
+
     @Override
     public void doSort(Integer[] a) {
         super.doSort(a);
@@ -16,15 +18,13 @@ public class DrawInsertion extends DrawExample {
         }
     }
 
-    private static DrawInsertion drawInsertion = new DrawInsertion();
-
     public static void sort(Integer[] a) {
         drawInsertion.doSort(a);
     }
 
     public static void main(String[] args) {
-        Integer[] integers = GenerateIntegerArrayFactory.generateRandomArray(10);
-        drawInsertion.sort(integers);
+        Integer[] integers = GenerateIntegerArrayFactory.generateRandomArray(100);
+        sort(integers);
         StdOut.println(drawInsertion.isSort(integers));
         drawInsertion.show(integers);
     }

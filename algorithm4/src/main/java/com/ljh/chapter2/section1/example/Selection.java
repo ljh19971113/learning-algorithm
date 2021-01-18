@@ -33,7 +33,7 @@ public class Selection extends Examle {
 
     public static void main(String[] args) {
         Integer[] integers = GenerateIntegerArrayFactory.generateRandomArray(1000);
-        selection.sort(integers);
+        sort(integers);
         StdOut.println(selection.isSort(integers));
         selection.show(integers);
     }
