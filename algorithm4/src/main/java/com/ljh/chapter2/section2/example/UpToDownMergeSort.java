@@ -3,9 +3,9 @@ package com.ljh.chapter2.section2.example;
 import com.ljh.chapter2.Examle;
 import com.ljh.utils.GenerateIntegerArrayFactory;
 
-public class MergeSort extends Examle {
+public class UpToDownMergeSort extends Examle {
 
-    private static MergeSort mergeSort = new MergeSort();
+    private static UpToDownMergeSort mergeSort = new UpToDownMergeSort();
 
     private Comparable[] aux;
 
